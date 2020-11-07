@@ -1,2 +1,2 @@
 ALTER TABLE notes
-  DROP COLUMN folderId;
+  DROP COLUMN IF EXISTS folderId;
