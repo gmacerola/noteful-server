@@ -1,2 +1,0 @@
-ALTER TABLE notes
-  DROP COLUMN folderId;
