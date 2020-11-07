@@ -80,7 +80,7 @@ noteRouter
       });
     }
 
-    NoteService.updateNote(req.app.get("db"), req.params.note_id, noteToUpdate)
+    NoteService.updateNote(req.app.get("db"), req.params.id, noteToUpdate)
       .then((numRowsAffected) => {
         res.status(204).end();
       })
