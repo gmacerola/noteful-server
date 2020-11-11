@@ -1,4 +1,4 @@
 ALTER TABLE notes
   ADD COLUMN
-    folderId INTEGER REFERENCES folders(id)
+    folder_id INTEGER REFERENCES folders(id)
     ON DELETE SET NULL;
